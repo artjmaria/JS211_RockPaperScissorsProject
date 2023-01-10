@@ -24,8 +24,6 @@ const rockPaperScissors = (hand1, hand2) => {
   const trimHand2 = hand2.trim().toLowerCase()
 
 
-
-
   if (trimHand1 === 'rock' && trimHand2 === 'paper') {
 
     return "Hand two wins!"
@@ -58,7 +56,6 @@ const rockPaperScissors = (hand1, hand2) => {
   }
 
 }
-
 
 
 // the first function called in the program to get an input from the user
