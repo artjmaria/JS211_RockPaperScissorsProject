@@ -20,9 +20,12 @@ const rl = readline.createInterface({
 const rockPaperScissors = (hand1, hand2) => {
 
 
+  // (THIS TRIMS THE EXTRA WHITESPACE AND SETS STRING TO ALL LOWERCASE)
   const trimHand1 = hand1.trim().toLowerCase()
   const trimHand2 = hand2.trim().toLowerCase()
 
+
+  // CONDITIONAL STATEMENTS
 
   if (trimHand1 === 'rock' && trimHand2 === 'paper') {
 
